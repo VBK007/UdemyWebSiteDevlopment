@@ -1,0 +1,37 @@
+*{
+   margin: 4px;
+   width: 100%;
+}
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.color-title{
+    font-weight: 100px;
+}
+
+.innerContentOne {
+    margin-right:1.5em;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+
+#red-text{
+    color: red;
+}
+
+#blue-text{
+    color: blue;
+}
+
+#orange-text{
+    color: orange;
+}
+
+#yellow-text{
+    color: yellow;
+}
+
