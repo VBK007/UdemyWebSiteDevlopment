@@ -1,0 +1,42 @@
+div{
+    border: 2;
+    border-style: double;
+    border-color: black;
+    border-radius: 1;
+}
+.main1{
+    background-color: red;
+}
+img{
+    width: 200px;
+    height: 150px;
+}
+h1,h2{
+    text-align: center;
+}
+
+
+#para1{
+    color: blue;
+    font-weight: 100;
+    float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#para2{
+    color: brown;
+    font-weight: 100;
+    float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#para3{
+    color: green;
+    font-weight: 100;
+    float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+label{
+    background-color: yellow;
+}

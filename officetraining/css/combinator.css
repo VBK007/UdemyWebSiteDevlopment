@@ -1,0 +1,30 @@
+div:first-child{
+    color: red;
+    }
+     
+    selection:first-child{
+        color: red;
+        }
+     
+        article:first-child{
+            color: red;
+            }
+     
+            selection + p{
+                color: blue;
+                }
+     
+                div > * {
+                    font-size: 20px;
+                    font-style: italic;
+                }
+     
+             
+     
+                div article{
+                    color: green;
+                }
+     
+                div p{
+                    background-color: yellow;
+                }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+
+    <p id="p1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quos illo sed quaerat accusantium asperiores nisi voluptatem a quod ipsa? Pariatur, quia? Suscipit animi voluptatum est corrupti quia facilis eos.
+    </p>
+    <h1 id="h1">0 times clicked</h1>
+
+    <button id="btn">Button</button>
+
+Enter the name <input type="text" onkeyup="showValue()">
+
+<h3></h3>
+
+
+    <script>
+        function getRandomColor() {
+    const letters = '0123456789ABCDEF';
+    let color = '#';
+    for (let i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+}
+        let para = document.getElementById("p1");
+        para.style.color ="blue";
+        console.log("Inner elemet" + para.innerText)
+        let btn = document.getElementById("btn");
+        let h1 = document.getElementById("h1");
+        let count=0;
+        btn.addEventListener('click',function(){
+        h1.innerText = count++ +"times clicked";
+this.style.backgroundColor = getRandomColor();
+        });
+
+function showValue()
+{
+    let query = document.querySelector("input").value;
+    document.getElementsByTagName("h3").innerText = query;
+}
+
+    </script>
+</body>
+</html>

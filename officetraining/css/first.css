@@ -1,0 +1,23 @@
+p,h1{
+  color: aquamarine;
+  background-color: teal;
+}
+table{
+    color: black;
+    background-color: lime;
+}
+
+li{
+    list-style: decimal;
+    color: blueviolet;
+}
+
+#back1{
+    background-color: cornflowerblue;
+}
+.para1{
+    color: white;
+    font-weight: 100;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
