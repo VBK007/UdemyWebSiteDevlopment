@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js"></script>
+    <title>DropDown Data</title>
+</head>
+<body>
+    <h4>Document List Data</h4>
+
+<details>
+    <summary>Click to reveal Qr Code</summary>
+    <ul>
+        <li><svg id="barcode"></svg>
+<script>
+  JsBarcode("#barcode", "123456789");
+</script></li>
+
+        <li> 
+            <canvas id="csk">
+                <script>JsBarcode("#csk","csk");</script>
+            </canvas>
+        </li>
+    </ul>
+
+
+
+
+
+
+
+
+</details>
+
+<details>
+    <summary>Click to reveal Bar Code</summary>
+    <ul>
+        <li><img src="https://www.shutterstock.com/image-vector/vector-qr-code-sample-smartphone-260nw-521220724.jpg" style="height: 100px;" alt="">QR Image</li>
+        <li><img src="https://www.shutterstock.com/image-vector/vector-qr-code-sample-smartphone-260nw-521220724.jpg" style="height: 100px;" alt="">Bar Code Image</li>
+    </ul>
+</details>
+
+<br>    
+
+
+<details>
+    <summary>Click to reveal Map</summary>
+    <ul>
+        <li><iframe
+  width="600"
+  height="450"
+  style="border:0"
+  loading="lazy"
+  allowfullscreen
+  src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=Chennai,India">
+</iframe>
+</li>
+
+<li>
+    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" width="560" height="315"></iframe>
+
+</li>
+
+    </ul>
+</details>
+
+
+
+<a href="./img/family.html"><button>Next Page</button></a>
+
+
+</body>
+</html>

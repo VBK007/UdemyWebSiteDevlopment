@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Table</title>
+    <script>
+        
+    </script>
+</head>
+<body>
+
+    <table id="table" border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+    </table>
+
+
+<script>
+
+    const table = document.getElementById('table');
+    const data  = [
+        {name:'Bharath', age: 27},
+        {name:'Dhanusha', age: 22},
+    ]
+
+    data.forEach((item)=>{
+        const row = table.insertRow();
+        const cell1 = row.insertCell(0);
+        const cell2 = row.insertCell(1);
+        cell1.innerHTML = item.name;
+        cell2.innerHTML = item.age;
+    })
+
+</script>
+    
+</body>
+</html>
